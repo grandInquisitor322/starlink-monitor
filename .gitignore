@@ -1,0 +1,41 @@
+# TLE cache data
+*.tle
+gp.php
+
+# Audit logs (contain operational data, not for public repo)
+audit_logs/
+
+# Output files
+output.txt
+response.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Batch helper
+run.bat
